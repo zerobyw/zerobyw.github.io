@@ -1,0 +1,37 @@
+.card {
+	  position: fixed;
+  width: 912px;
+  height: 315px;
+  padding: 2rem;
+  border-radius: 1rem;
+    top: auto;
+  left: auto;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+p, a {
+  font-size: 1rem;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+
+.card {
+	/* other styles */
+	background: rgba(255, 255, 255, .3);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(2px);
+}
+
+.shape {
+
+  width: 150px;
+
+}
