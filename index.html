@@ -126,8 +126,22 @@
   </li>
   
   </ul>
-
-  
+  <!-- 统计 -->
+        <div id="box"></div>
+        <script type="text/javascript">
+            function setStorage(){
+                if(localStorage.counter){
+                    localStorage.counter=Number(localStorage.counter)+1;
+                }else{
+                    localStorage.counter=1;
+                }
+                return localStorage.counter;
+            }
+            var counter=setStorage();
+            var oBox=document.getElementById('box');
+            oBox.innerHTML="您是第"+counter+"位访客";            
+        </script>
+ <!-- 统计 --> 
  
           
 <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/layui/2.5.5/layui.js" charset="utf-8"></script>
